@@ -17,3 +17,25 @@ while (i <= 10) {
   console.log(i);
   i++;
 }
+
+// Loops com Arrays
+var videoGamesLoop = ["Switch", "PS5", "Xbox One", "PC"];
+for (let i = 0; i < videoGamesLoop.length; i++) {
+  console.log(`[${i + 1}] ${videoGamesLoop[i]}`);
+}
+
+//Break
+// O loop ira para caso encontre a palavra break
+for (var i = 0; i < videoGames.length; i++) {
+  console.log(videoGames[i]);
+  if (videoGames[i] === "Xbox One") {
+    console.log("Xbox One encontrado!");
+    break;
+  }
+}
+
+//forEach
+var frutas = ["Maçã", "Banana", "Laranja", "Uva"];
+frutas.forEach(function (fruta, i) {
+  console.log(fruta, i);
+});
