@@ -1,8 +1,8 @@
 console.log("Exercicios");
 // Declarar uma variável com o seu nome
-let nome = "Lucas";
+let nomeExercicio = "Lucas";
 // Declarar uma variável com a sua idade
-let idade = 26;
+let idadeExercicio = 26;
 // Declarar uma variável com a sua comida
 // favorita e não atribuir valor
 let comidaFavorita;
