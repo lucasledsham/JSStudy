@@ -1,11 +1,12 @@
+console.log("Exercicios");
 // Declarar uma variável com o seu nome
-var meuNome = "Lucas";
+let nome = "Lucas";
 // Declarar uma variável com a sua idade
-var idade = 25;
+let idade = 26;
 // Declarar uma variável com a sua comida
 // favorita e não atribuir valor
-var comidaFavorita;
+let comidaFavorita;
 // Atribuir valor a sua comida favorita
-comidaFavorita = 'strogonoff';
+comidaFavorita = "Strogonoff";
 // Declarar 5 variáveis diferentes sem valores
-var escola, serie, carro, genero, aprovado;
+let campeonato, campeao, viceCampeao, artilheiro, jogadorRevelacao;
